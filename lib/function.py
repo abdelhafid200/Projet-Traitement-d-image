@@ -49,7 +49,7 @@ def detect_non_vegetative_regions(image):
       "image": image, 
       "masked_image": masked_image,
       "green_mask": green_mask,
-    #   "Result": masked_image_inverted, 
+      "Result": masked_image_inverted, 
   }
 
 def detect_disease_zones(image):
