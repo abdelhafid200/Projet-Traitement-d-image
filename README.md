@@ -1,4 +1,4 @@
-# Projet Traitement d'image
+# Détection Précoce de Maladies sur Feuilles par traitement d’images
 
 ## Comment l'utiliser
 
