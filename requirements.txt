@@ -1,0 +1,11 @@
+Flask==3.0.3
+joblib==1.2.0
+matplotlib==3.7.2
+numpy==1.26.4
+opencv_python==4.8.0.74
+opencv_python_headless==4.9.0.80
+Pillow==9.5.0
+Pillow==10.3.0
+scikit_learn==1.4.2
+skimage==0.0
+Werkzeug==3.0.3
