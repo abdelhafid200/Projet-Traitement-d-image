@@ -49,7 +49,7 @@ def detect_non_vegetative_regions(image):
       "image": image, 
       "masked_image": masked_image,
       "green_mask": green_mask,
-      "Result": masked_image_inverted, 
+    #   "Result": masked_image_inverted, 
   }
 
 def detect_disease_zones(image):
@@ -79,8 +79,8 @@ def detect_disease_zones(image):
         cv2.rectangle(image, (x, y), (x + w, y + h), (0, 0, 255), 2)  # Draw red rectangles
 
     return {
-        "Origin": origin,
-        "hsv": hsv,
+        # "Origin": origin,
+        # "hsv": hsv,
         "mask": mask,
         "Result": image,
     }
