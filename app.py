@@ -14,8 +14,8 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 methods = {
-    "Approche bas ́ee sur la d ́etection de zones non vertes": detect_non_vegetative_regions,
-    "Approche Bas ́ee sur la Texture et la Forme": detect_disease_zones,
+    "Approche basée sur la détection de zones non vertes": detect_non_vegetative_regions,
+    "Approche Basée sur la Texture et la Forme": detect_disease_zones,
 }
 
 RESOURCE_FOLDER = 'templates/resources'
