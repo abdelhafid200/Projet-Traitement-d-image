@@ -171,7 +171,15 @@
                     const data = await response.json();
 
                     if (data.result) {
-                        resultsDiv.innerHTML = data.result;
+                        resultsDiv.innerHTML = `
+                        <h2 class="result-text">${data.result.result}</h2>
+                        <figure class="figure">
+                            <a href="${data.result.image}" target="_blank">
+                                <img style="width: 300px; border-radius: 4px;" src="${data.result.image}" alt="Image">
+                            </a>
+                            <figcaption class="figure-caption">Image</figcaption>
+                        </figure>
+                        `;
                     } else {
                         resultsDiv.innerHTML = 'No results found';
                     }

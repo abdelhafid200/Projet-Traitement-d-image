@@ -96,8 +96,12 @@ def predict():
 
     file = request.files['image']
     image = cv2.imdecode(np.fromstring(file.read(), np.uint8), cv2.IMREAD_COLOR)
+    image_path = save_image(image, file.filename)
     result = prediction(image)
-    return jsonify({'result': result})
+    return jsonify({'result': {
+        "image": image_path,
+        "result": result
+    }})
 
 
 def process_video(video_path, method):
