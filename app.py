@@ -58,7 +58,7 @@ def serve_static(filename):
 
 @app.route('/background', methods=['GET'])
 def serve_background():
-    return send_from_directory("./", 'bg3.jpg')
+    return send_from_directory("./", 'bg.jpg')
 
 
 @app.route('/images/<path:filename>', methods=['GET'])
