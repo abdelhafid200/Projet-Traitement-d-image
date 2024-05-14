@@ -14,13 +14,13 @@ python app.py
 
 ## Contenu
 
-**1. modèles**
+**1. modeles**
 Ce répertoire contient tous les modèles d'apprentissage automatique pré-entraînés au format pickle (.pkl). Ces modèles sont utilisés pour le traitement d'images et les tâches de prédiction dans l'application.
 
-**2. modèles**
+**2. templates**
 Ce répertoire contient le code HTML, CSS et JavaScript de l'interface web de l'application. Il inclut des modèles pour différentes pages et composants de l'interface utilisateur.
 
-**3. cahiers**
+**3. notebooks**
 Ce répertoire contient des cahiers Jupyter utilisés lors du processus de développement. Ces cahiers contiennent divers extraits de code, expériences et analyses de données effectuées lors du développement de l'application.
 
 **4. app.py**
