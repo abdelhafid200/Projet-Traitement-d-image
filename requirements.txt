@@ -6,5 +6,5 @@ opencv_python==4.8.0.74
 opencv_python_headless==4.9.0.80
 Pillow==10.3.0
 scikit_learn==1.4.2
-scikit-image==0.0
+scikit-image==0.18.3
 Werkzeug==3.0.3
